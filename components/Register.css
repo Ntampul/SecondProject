@@ -48,8 +48,8 @@ input{
 }
 .button{
 display: flex;
-background-color: blue;
-color:rgb(42, 7, 170);
+background-color: darkgreen;
+color: black;
 padding: 10px;
 font-weight: bold;
 cursor: pointer;
