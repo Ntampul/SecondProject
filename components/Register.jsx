@@ -1,23 +1,23 @@
-import React from 'react'
-import  './Register.css'
+import React from 'react';
+import './Register.css';
+import { BsFillBellFill } from "react-icons/bs"; // Import the bell icon
+
 
 const Register = () => {
   return (
     <div className='formContainer'>
-        <div className='formWrapper'>
-            <span className='logo'>Mthunzi Chat</span>
-            <span className='title'>Register</span>
+      <div className="formWrapper">
+        <span className='logo'><BsFillBellFill /><br></br> ChatHub</span> {/* Include the bell icon */}
+        <span className='title'>SignUp</span>
         <form>
-            <input type= "text" placeholder='display name' />
-            <input type= "email" placeholder='email' />
-            <input type= "password" placeholder='password' />
-
-            <button> Sign up</button>
+          <input type="text" placeholder='display name' />
+          <input type="email" placeholder='email' />
+          <input type="password" placeholder='password' />
+          <button>SignUp</button>
         </form>
-        <p> you do have an account? Login</p>
-     </div>
+        <p>Already have an account? Login</p>
+      </div>
     </div>
-  )
+  );
 }
-
 export default Register;

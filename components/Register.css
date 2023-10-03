@@ -47,7 +47,7 @@ input{
     border-bottom: 1px solid ;
 }
 .button{
-    display: flex;
+display: flex;
 background-color: blue;
 color:rgb(42, 7, 170);
 padding: 10px;
