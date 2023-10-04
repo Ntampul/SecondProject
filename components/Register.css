@@ -1,7 +1,7 @@
 /* Register.css */
 
 .formContainer {
-  background-color: rgb(106, 0, 255);
+  background-color: rgb(85, 85, 69);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -54,3 +54,12 @@ padding: 10px;
 font-weight: bold;
 cursor: pointer;
 }
+.buttonOTP{
+  display: flex;
+  background-color: darkgreen;
+  color: black;
+  padding: 10px;
+  font-weight: bold;
+  cursor: pointer;
+
+  }
