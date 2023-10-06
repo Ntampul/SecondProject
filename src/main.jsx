@@ -6,7 +6,7 @@ import RegisterWithOTP from './pages/RegisterWithOTP.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Register />
+      <Register />
     <RegisterWithOTP />
   </React.StrictMode>
 )
