@@ -38,9 +38,8 @@ const RegisterWithOTP = () => {
       <span className='logo'><BsFillBellFill color="blue" /><br></br> ChatHub</span>
         <span className="title">SignIn</span>
         <form onSubmit={handleSignUp}>
-         
+
           {formData.isOtpVerified ? (
-            
             <button className="button">SignIn</button>
           ) : (
             <>

@@ -2,16 +2,13 @@
 
 .formContainer {
   display: flex;
-  position: absolute;
+
   background-color: rgb(85, 85, 69);
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-
-
 }
-
 .formWrapper {
   background-color: white;
   padding: 20px 60px;
