@@ -1,7 +1,7 @@
 import React from 'react';
 import './Register.css';
 import { BsFillBellFill } from "react-icons/bs"; // Import the bell icon
-
+import Add from "../assets/img/avata.jpg";
 
 const Register = () => {
   return (
@@ -14,6 +14,15 @@ const Register = () => {
           <input type="email" placeholder='email' />
           <input type="password" placeholder='password' />
           <button className='button'>SignUp</button>
+          <input required style={{ display: "none" }} type="file" id="file" />
+          <label htmlFor="file" className="avatar-label">
+  <div className="avatar-container">
+    <img src={Add} alt="Add Icon" className="add-icon" />
+    <span className="label-text">Add an avatar</span>
+  </div>
+  <input type="file" id="file" style={{ display: 'none' }} />
+</label>
+
         </form>
         <p>Already have an account? Login</p>
       </div>
