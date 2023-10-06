@@ -33,8 +33,8 @@ const RegisterWithOTP = () => {
   };
 
   return (
-    <div className="formContainer">
-      <div className="formWrapper">
+    <div className="formCont">
+      <div className="formOTP">
       <span className='logo'><BsFillBellFill color="blue" /><br></br> ChatHub</span>
         <span className="title">SignIn</span>
         <form onSubmit={handleSignUp}>
