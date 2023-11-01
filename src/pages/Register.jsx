@@ -7,7 +7,7 @@ const Register = () => {
   return (
     <div className='formContainer'>
       <div className="formWrapper">
-        <span className='logo'><BsFillBellFill color="blue" /><br></br> ChatHub</span> {/* Include the bell icon */}
+        <span className='logo'><BsFillBellFill color="white" /><br></br> ChatHub</span> {/* Include the bell icon */}
         <span className='title'>SignUp</span>
         <form>
           <input type="text" placeholder='display name' />
