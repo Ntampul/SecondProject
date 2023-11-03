@@ -1,18 +1,17 @@
 import React from 'react';
 import './Register.css';
 import { BsFillBellFill } from "react-icons/bs"; // Import the bell icon
+import { IoFingerPrintSharp } from "react-icons/io5";
 import Add from "../assets/img/avata.jpg";
 
 const Register = () => {
   return (
     <div className='formContainer'>
       <div className="formWrapper">
-        <span className='logo'><BsFillBellFill color="white" /><br></br> ChatHub</span> {/* Include the bell icon */}
-        <span className='title'>SignUp</span>
-        <form>
-          <input type="text" placeholder='display name' />
-          <input type="email" placeholder='email' />
-          <input type="password" placeholder='password' />
+        <span className='logo'><IoFingerPrintSharp color="#7d8243" /><br></br> ChatHub</span> {/* Include the bell icon */}
+        <span className='title'>Sign in with touch ID</span>
+        <span className='tId'>Use your touch ID for faster and easier access to your account</span>
+       
           <button className='button'>SignUp</button>
           <input required style={{ display: "none" }} type="file" id="file" />
           <label htmlFor="file" className="avatar-label">
@@ -23,8 +22,10 @@ const Register = () => {
   <input type="file" id="file" style={{ display: 'none' }} />
 </label>
 
-        </form>
-        <p>Already have an account? Login</p>
+       <p>New User? Sign Up</p>
+       <span className='logo'><BsFillBellFill color="#7d8243" /></span> {/* Include the bell icon */}
+       
+
       </div>
     </div>
   );
