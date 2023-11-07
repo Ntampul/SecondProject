@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
-//import './Register.css';
 import { BsFillBellFill } from "react-icons/bs";
 
-const RegisterWithOTP = () => {
+const RegisterWithOTP = ({ closeModal }) => {
   const [formData, setFormData] = useState({
     displayName: '',
     email: '',
@@ -33,14 +32,14 @@ const RegisterWithOTP = () => {
   };
 
   return (
-    <div className="formCont">
-      <div className="formOTP">
-      <span className='logo'><BsFillBellFill color="blue" /><br></br> ChatHub</span>
-        <span className="title">Signb In with touch ID</span>
+    <div className="absolute inset-0 flex items-center justify-center">
+      <div className="formOTP modal-content absolute bg-white rounded-lg p-6 text-center shadow-md ">
+        
+        <span className='logo'><BsFillBellFill color="#7d8243" /><br></br> ChatHub</span>
+        <span className="title">Sign In with touch ID</span>
         <form onSubmit={handleSignUp}>
-
           {formData.isOtpVerified ? (
-            <button className="button">SignIn</button>
+            <button className="button">Sign In</button>
           ) : (
             <>
               <input
@@ -50,12 +49,14 @@ const RegisterWithOTP = () => {
                 value={formData.otp}
                 onChange={handleChange}
                 required
+                className="w-full py-2 px-3 border rounded-md"
               />
               <button className="buttonOTP">Verify OTP</button>
             </>
           )}
         </form>
         <p>Already have an account? Login</p>
+       
       </div>
     </div>
   );

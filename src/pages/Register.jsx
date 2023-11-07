@@ -3,6 +3,7 @@ import './Register.css';
 import { BsFillBellFill } from "react-icons/bs";
 import { IoFingerPrintSharp } from "react-icons/io5";
 import Add from "../assets/img/avata.jpg";
+import  RegisterWithOTP from '../pages/RegisterWithOTP';
 
 const Register = () => {
   const [showModal, setShowModal] = useState(false);
@@ -38,10 +39,12 @@ const Register = () => {
         {showModal && (
           <div className="modal">
             <div className="modal-content">
-              <span className="close" onClick={closeModal}>&times;</span>
-              <p>This is your modal content.</p>
-              {/* You can add any content you want inside the modal */}
+            <span className="close" onClick={closeModal} style={{ color: 'white', fontWeight: 'bold', fontSize: '24px' }}>&times;</span>
+
+
+             
             </div>
+            <RegisterWithOTP />
           </div>
         )}
 
