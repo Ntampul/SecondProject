@@ -53,6 +53,14 @@ input{
   border-radius: 25px;
   background: #7D8243;
   cursor: pointer;
+ 
+}
+.parent-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  justify-content: flex-end;
 }
 .buttonOTP{
   display: flex;
@@ -169,11 +177,20 @@ line-height: normal;
 
 /* Modal Content */
 .modal-content {
-
+  position: fixed;
   border-radius: 8px;
   padding: 20px;
   text-align: center;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background overlay */
+  z-index: 1000; /* Adjust the z-index value as needed to ensure it's on top of other content */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Close Button */
@@ -185,5 +202,20 @@ line-height: normal;
   cursor: pointer;
   border-radius: 5px;
 }
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 1002; /* Higher z-index than the modal */
+}
+
+.close-button:hover {
+  color: red; /* You can change the color on hover */
+}
+
 
 

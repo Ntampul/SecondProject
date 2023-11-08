@@ -32,7 +32,7 @@ const RegisterWithOTP = ({ closeModal }) => {
   };
 
   return (
-    <div className="absolute inset-0 flex items-center justify-center">
+    
       <div className="formOTP modal-content absolute bg-white rounded-lg p-6 text-center shadow-md ">
         
         <span className='logo'><BsFillBellFill color="#7d8243" /><br></br> ChatHub</span>
@@ -58,7 +58,7 @@ const RegisterWithOTP = ({ closeModal }) => {
         <p>Already have an account? Login</p>
        
       </div>
-    </div>
+    
   );
 };
 
