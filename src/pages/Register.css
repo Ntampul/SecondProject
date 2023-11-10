@@ -10,7 +10,7 @@
 }
 .formWrapper {
 
-  padding: 20px 60px;
+  padding: 155px 60px;
   border-radius: 70px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   text-align: center;
@@ -184,7 +184,7 @@ line-height: normal;
   border-radius: 8px;
   padding: 20px;
   text-align: center;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+ 
   top: 0;
   left: 0;
   width: 100%;
@@ -198,7 +198,6 @@ line-height: normal;
 /* Close Button */
 .close-button {
   margin-top: 10px;
-  background-color: #ccc;
   border: none;
   padding: 10px 20px;
   cursor: pointer;
@@ -206,17 +205,25 @@ line-height: normal;
 }
 .close-button {
   position: absolute;
+  color: #FFF;
   top: 10px;
   right: 10px;
   background: none;
   border: none;
-  font-size: 20px;
+  font-size: 40px;
   cursor: pointer;
   z-index: 1002; /* Higher z-index than the modal */
 }
 
 .close-button:hover {
   color: red; /* You can change the color on hover */
+}
+.OR{
+  color: #F5F5F5;
+}
+.modal{
+  width: 50px;
+  background-color: brown;
 }
 
 

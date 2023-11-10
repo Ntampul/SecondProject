@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { BsFillBellFill, BsArrowLeft, BsEyeSlash } from "react-icons/bs";
+import { BsFillBellFill, } from "react-icons/bs";
+import { FcGoogle } from "react-icons/fc";
 
 
 const RegisterWithOTP = ({ closeModal }) => {
@@ -22,7 +23,7 @@ const RegisterWithOTP = ({ closeModal }) => {
   return (
     <div className="formOTP modal-content absolute bg-white rounded-lg p-6 text-center shadow-md ">
  <span className='logo'><BsFillBellFill color="#7d8243" /><br></br> ChatHub</span>
-      <span className="title">Sign In with touch ID</span>
+      <span className="title">Sign In with touch ID</span><br></br>
       <form onSubmit={handleLogin}>
         <input
           type="email"
@@ -32,7 +33,7 @@ const RegisterWithOTP = ({ closeModal }) => {
           onChange={handleChange}
           required
           className="w-full py-2 px-3 border rounded-md"
-        />
+        /> <br></br>
         <input
           type="password"
           name="password"
@@ -41,11 +42,16 @@ const RegisterWithOTP = ({ closeModal }) => {
           onChange={handleChange}
           required
           className="w-full py-2 px-3 border rounded-md"
-        />
-        <button className="button">Login</button>
+        /><br></br>
+        <button className="button">Login</button><br></br>
+        <span className='OR'> OR </span><br></br>
+        <span className='google'> <FcGoogle size="40" /> </span>
+
+      
       </form>
       <p> Don't have an account? Register</p>
     </div>
+  
   );
 };
 

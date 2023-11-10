@@ -35,7 +35,7 @@ const Register = () => {
           </label>
 
           <p>New User? Sign Up</p>
-          <span className='logo'><BsFillBellFill color="#7d8243" /></span>
+          <span className='logo'><BsFillBellFill color="#7d8243" /></span><br></br>
           {showModal && (
                <div className="modal">
                <div class="modal-container">
@@ -44,6 +44,7 @@ const Register = () => {
     <RegisterWithOTP />
    
   </div>
+  
 </div>
 
               </div>
