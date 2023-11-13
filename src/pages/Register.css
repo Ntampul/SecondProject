@@ -16,7 +16,7 @@
   text-align: center;
   width: 322px;
   flex-direction: column;
-  gap: 5px;
+  gap: 10px;
   -webkit-border-radius: 50px;
   -moz-border-radius: 70px;
   -ms-border-radius: 70px;
@@ -50,7 +50,8 @@ input{
     border-bottom: 1px solid ;
 }
 .button{
-  width: 235px;
+  padding: 1px;
+  width: 264px;
   height: 54px;
   flex-shrink: 0;
   border-radius: 25px;
@@ -182,7 +183,7 @@ line-height: normal;
 .modal-content {
   position: fixed;
   border-radius: 8px;
-  padding: 20px;
+  padding: 1px;
   text-align: center;
  
   top: 0;
