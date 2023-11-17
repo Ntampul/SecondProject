@@ -217,14 +217,14 @@ line-height: normal;
 }
 
 .close-button:hover {
-  color: red; /* You can change the color on hover */
+  color:#7D8243;/* You can change the color on hover */
 }
 .OR{
   color: #F5F5F5;
 }
 .modal{
   width: 50px;
-  background-color: brown;
+  background-color: #7D8243;
 }
 
 

@@ -5,6 +5,7 @@ import { IoFingerPrintSharp } from 'react-icons/io5';
 import Add from '../assets/img/avata.jpg';
 import RegisterWithOTP from '../pages/RegisterWithOTP';
 
+
 const Register = () => {
   const [showModal, setShowModal] = useState(false);
 
@@ -56,6 +57,7 @@ const Register = () => {
                     ×
                   </button>
                   <RegisterWithOTP />
+                
                 </div>
               </div>
             </div>
