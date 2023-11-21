@@ -226,6 +226,28 @@ line-height: normal;
   width: 50px;
   background-color: #7D8243;
 }
+.Home{
+  background-color: #7D8243;
+  height: 90vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Container{
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 80%;
+  height: 88%;
+  display: flex;
+
+}
+.sidebar{flex: 1; 
+  border-right: 10x solid yellow  ;}
+  .chat{
+    flex: 2;
+  }
+
 
 
 
