@@ -227,7 +227,7 @@ line-height: normal;
   background-color: #7D8243;
 }
 .Home{
-  background-color: #7D8243;
+  background-color:  #101E32;;
   height: 90vh;
 
   display: flex;
@@ -240,14 +240,27 @@ line-height: normal;
   width: 80%;
   height: 88%;
   display: flex;
+  overflow: hidden;
 
 }
-.sidebar{flex: 1; 
-  border-right: 10x solid yellow  ;}
-  .chat{
+.SideBar{
+  flex: 1; border-right: 1px solid white;
+  background-color: #7D8243;
+}
+.Chat{
     flex: 2;
-  }
+    background-color: #8da4f1;
+}
+.background-color {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 406px;
+  background: #D9D9D9;
+  -webkit-border-radius: 360px;
+  -moz-border-radius: 406px;
+  -ms-border-radius: 406px;
+  -o-border-radius: 406px;
 
-
+}
 
 
